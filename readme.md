@@ -18,4 +18,4 @@ A simple and responsive **Ticket Generating** application built with **HTML, CSS
 
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-username/ticket-generator.git
+   git clone https://github.com/nomad-soul00/ticket-generator.git
