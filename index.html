@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    </style>
+  <script async type="module" crossorigin src="/Ticket-Generator/assets/index-BdFeFAwE.js"></script>
+  <link rel="stylesheet" crossorigin href="/Ticket-Generator/assets/index-CHZAHb0T.css">
+</head>
+
+<body
+    class="bg-[#abd1c6] w-full h-[100dvh] to-pink-500 m-0 px-[min(1em,5%)] box-border flex items-center justify-center">
+
+    <main
+        class="main-box w-100% max-w-[500px] mx-auto min-h-[95dvh]  flex flex-col items-center box-border p-[min(1.5em,3%)] border-2 border-[#001e1d] bg-[#004643] rounded-md ">
+
+        <h2 class="text-[#ffffff] text-[clamp(0.7rem,4vw,0.9rem)] font-[Ubuntu]">Coding Conference</h2>
+        <h1
+            class="text-[#ffffff] text-[clamp(1rem,6vw,1.3rem)] font-[Ubuntu] text-center font-semibold leading-8 max-sm:leading-7">
+            Your
+            Journey to
+            Coding Conf 2025
+            Starts Here!</h1>
+        <span class="text-[#abd1c6] text-[clamp(0.6rem,4vw,0.8rem)] text-center font-[Ubuntu]">Secure Your Spot at
+            next
+            year's biggest
+            coding conference</span>
+        </div>
+        <!-- drag and drop upload -->
+        <div class="dragAnddrop  items-center justify-center flex w-full max-w-[70%] box-border p-[5px]">
+            <label for="dropzone-file"
+                class="labelforinput flex flex-col items-center justify-center w-full h-24 border-2 border-[#001e1d] border-dashed rounded-lg cursor-pointer  bg-transparent">
+                <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                    <!-- img-frame -->
+                    <img src="/Ticket-Generator/assets/manja-vitolic-gKXKBY-C-Dk-unsplash-DyvbuvSV.jpg" width="40px" height="40px"
+                        id="userImage"
+                        class="border-[#001e1d] border-2 max-w-[40px] w-full max-sm:w[20px] max-sm:h-auto max-sm:rounded-[200px] h-[40px] rounded-[400px] object-cover aspect-square text-[#001e1d] hidden">
+
+
+                    <svg class="drag-svg w-8 h-8 max-sm:w-6 max-sm:h-6 mb-4 text-gray-500 mt-[2px] stroke-[#abd1c6]"
+                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
+                    </svg>
+
+                    <!-- image Buttons -->
+                    <div id="Image-buttons" class=" max-w-[303px] hidden flex-row gap-8 ">
+                        <button class="removeImage img-btns hover:bg-[#f8d39bee]">Remove Image</button>
+                        <button class="changeImage img-btns hover:bg-[#f8d39bee]">Change Image</button>
+                    </div>
+
+                    <p class="drop-text mb-2 text-[clamp(13px,4vw,14px)] text-[#abd1c6] text-center "><span
+                            class="font-semibold">Click to
+                            upload</span>
+                        or drag and drop</p>
+
+                </div>
+                <input id="dropzone-file" type="file" class="hidden" />
+            </label>
+        </div>
+
+
+        <!-- ticket genrator -->
+        <div class="Ticket-box w-full p-[min(5em,8%)] hidden flex-col items-center gap-5 max-sm370:gap-7 max-sm370:mt-5">
+            <p class="text-[#abd1c6] font-semibold text-[clamp(0.8rem,4vw,1.2rem)] text-center font-[Ubuntu]">We've
+                emailed your
+                ticket to <span class="email-text text-[#e16162]">example@gmail.com</span> and will
+                send updates in the run up to the event.</p>
+
+            <div
+                class="ticket w-full max-w-[80%] h-[150px] rounded-lg bg-[#f9bc60] max-sm370:max-w-[95%] max-sm370:h-[100px] flex justify-center items-center">
+
+                <div
+                    class="Ticketdetails border-r-2 flex flex-col justify-around border-dashed border-[#004643] font-[Ubuntu] w-[100%] max-w-[80%] h-[100%]">
+                    <div class="conf-detaile box-border pl-2.5">
+                        <h2 class="text-[#004643] font-medium text-[clamp(1rem,4vw,1.5rem)]">Coding Conf</h2>
+
+                        <p class="time-venue text-[#700505] text-[clamp(0.6rem,4vw,0.9rem)]">Jan 31, 2025 / Austin, Tx
+                        </p>
+
+                    </div>
+
+                    <div class="userTicketDetail box-border flex items-center gap-2.5 pl-2 ">
+
+                        <img src=""
+                            class="ticket-pic max-w-[40px] w-full max-sm:w[20px] max-sm:h-auto rounded-lg object-cover aspect-square border border-[#f4f4f4] "
+                            width="40px" height="40px" alt="">
+                        <div class="flex flex-col">
+                            <h2 class="ticket-name text-[#004643] font-medium text-[clamp(0.8rem,4vw,1.1rem)] ">Sk Sahil
+                                Ahamed</h2>
+
+                            <p class=" text-[#001e1d] text-[clamp(0.5rem,4vw,0.7rem)]">example@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p
+                    class="ticket-code rotate-90 t w-auto h-[20px] box-border text-[#d41e1e] text-[clamp(0.6rem,4vw,1rem)] font-semibold font-[Ubuntu]">
+                    #123456</p>
+
+            </div>
+
+        </div>
+
+        <!-- user Form -->
+
+        <form class="form w-full max-w-[70%] font-[Ubuntu] mt-2 flex flex-col items-center gap-4">
+            <div class="w-full ">
+                <label class="block font-medium text-[#d8d8d8]  text-[clamp(12px,4vw,14px)]">
+                    Full Name
+                </label>
+                <input required placeholder="JohnDoe"
+                    class="bg-[#abd1c6] border-2 border-[#001e1d] text-[0f3433] active:bg-[#f9bc60] hover:border-[#f9bc60] hover:bg-[#f9bc60] outline-none sm:text-sm rounded-lg block w-full p-2.5 focus-within:text-[#001e1d] focus-within:border-[#001e1d] h-[38px]
+    transition-transform duration-200 ease-in-out hover:scale-105 focus:scale-105 max-sm:h-[35px] text-[clamp(11px,4vw,14px)]" id="FullName" type="text">
+            </div>
+
+            <div class="w-full mt-[6px] ">
+                <label class="block font-medium text-[#d8d8d8]  text-[clamp(12px,4vw,14px)]">
+                    Email Address
+                </label>
+                <input required placeholder="example@gmail.com"
+                    class="bg-[#abd1c6] border-2 text-[0f3433] active:bg-[#f9bc60] focus-within:border-[#001e1d] hover:bg-[#f9bc60] outline-none sm:text-sm rounded-lg block w-full p-2.5 focus-within:text-[#001e1d] h-[38px]  hover:border-[#f9bc60] border-[#001e1d]
+    transition-transform duration-200 ease-in-out hover:scale-105 focus:scale-105 max-sm:h-[35px] text-[clamp(11px,4vw,14px)]" id="email" type="text">
+            </div>
+
+            <!-- button -->
+            <button id="Submit"
+                class="w-full font-[Ubuntu] max-w-[60%] px-[20px]  py-[10px] border-box rounded-lg mt-[20px] bg-[#f9bc60] text-[#001e1d] text-[clamp(12px,4vw,14px)] font-medium cursor-pointer hover:bg-[#ffcc7e]">Generate
+                My
+                Ticket</button>
+
+
+        </form>
+
+    </main>
+</body>
+
+</html>
